@@ -10,8 +10,9 @@ const App = () => {
   }
   return (
     <div>
+      <h1>Enter your name:</h1>
       <input type="text" onChange={greeting}></input>
-      <h1> {greet}</h1>
+      <h2> {greet}</h2>
         {/* Do not remove the main div */}
     </div>
   )
