@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <h1>Enter your name:</h1>
       <input type="text" onChange={greeting}></input>
-      <h2> {greet}</h2>
+      <p> {greet}</p>
         {/* Do not remove the main div */}
     </div>
   )
